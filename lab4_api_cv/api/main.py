@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile
 import shutil
-from src.lab4_api_cv.services.image_service import analizar_imagen
+from lab4_api_cv.services.image_service import analizar_imagen
 
 app = FastAPI()
 
